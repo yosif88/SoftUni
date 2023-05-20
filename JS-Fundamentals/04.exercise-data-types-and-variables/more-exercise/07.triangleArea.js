@@ -1,5 +1,5 @@
 function triangleArea(a, b, c) {
-    // formula for the semiperimeter
+    // calculate semiperimeter
     let s = (a + b + c) / 2;
   
     let area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
