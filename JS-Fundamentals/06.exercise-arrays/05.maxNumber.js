@@ -16,6 +16,7 @@ function maxNumber(arr) {
             biggestNum.push(firstNum);
         }
     }
+    
     console.log(biggestNum.join(' '));
 
 
