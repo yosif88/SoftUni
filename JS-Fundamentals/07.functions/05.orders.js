@@ -1,5 +1,5 @@
 function orders(product, quantity){
-    productCalculation(product, quantity);
+    let result = productCalculation(product, quantity);
     function productCalculation(product, quantity){
         let totalPrice = 0;
         switch(product){
@@ -8,11 +8,12 @@ function orders(product, quantity){
             case 'coke': totalPrice =1.40 * quantity; break;
             case 'snacks':totalPrice = 2.00 * quantity; break;
         }
-       console.log(totalPrice.toFixed(2));
+       return totalPrice.toFixed(2);
     }
+    console.log(result);
 }
 
 
 
 
-orders("water", 5)
+orders("coke", 5)
