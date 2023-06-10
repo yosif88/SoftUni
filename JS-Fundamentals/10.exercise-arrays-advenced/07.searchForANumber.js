@@ -8,6 +8,7 @@ function searchForANumber(arrOne, arrTwo){
    
     
     let count = numbers.filter((el) => el === searchEl);
+    // let counter = 0;
     // for (const el of seqance) {
     //     if (el === searchEl) {
     //         counter++;
