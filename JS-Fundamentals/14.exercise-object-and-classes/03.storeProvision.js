@@ -1,22 +1,20 @@
 function storeProvision(stock, products) {
     let store = {};
 
-    for (let i = 0; i < stock.length; i+=2) {
+    for (let i = 0; i < stock.length; i += 2) {
         let product = stock[i]
-        
-            store[product] =Number(stock[i + 1]) 
-        
-        
+
+        store[product] = Number(stock[i + 1])
+
+
     }
- 
-    
-    for (let i = 0; i < products.length; i+=2) {
+
+
+    for (let i = 0; i < products.length; i += 2) {
         let currentProduct = products[i];
-        
-        
-            let quantity = Number(products[i + 1])
-        if (!store.hasOwnProperty(currentProduct)){
-           
+        let quantity = Number(products[i + 1])
+        if (!store.hasOwnProperty(currentProduct)) {
+
             store[currentProduct] = 0;
         }
         store[currentProduct] += quantity
@@ -25,7 +23,7 @@ function storeProvision(stock, products) {
     for (const key in store) {
         console.log(`${key} -> ${store[key]}`);
     }
-   
+
 
 }
 storeProvision([
