@@ -3,7 +3,7 @@ class Storage {
         this.capacity = capacity;
         this.storage = [];
         this.totalCost = 0;
-        this.totalCost = 0;
+    
 
     }
 
