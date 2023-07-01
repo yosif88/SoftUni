@@ -3,9 +3,9 @@
 // function wordsTracker(input) {
 //     let map = new Map();
 
-//     let wordsCheck = input.shift().split(' ');
+//     let wordsToCheck = input.shift().split(' ');
 
-//     wordsCheck.forEach(el => {
+//     wordsToCheck.forEach(el => {
 //         map.set(el, 0);
 //     })
 
@@ -35,9 +35,9 @@
 function wordsTracker(input) {
     let words = {};
 
-    let wordsCheck = input.shift().split(' ');
+    let wordsToCheck = input.shift().split(' ');
 
-    wordsCheck.forEach(el => {
+    wordsToCheck.forEach(el => {
         words[el] = 0;
     })
 
