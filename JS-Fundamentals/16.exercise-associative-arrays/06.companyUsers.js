@@ -18,8 +18,8 @@ function companyUsers(input) {
     for (const [company, employees] of sorted) {
         console.log(company);
        
-        for (const employee of Array.from(employees)) {
-            console.log(`-- ${employee}`);
+        for (const employeeId of Array.from(employees)) {
+            console.log(`-- ${employeeId}`);
 
         }
     }
