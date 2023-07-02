@@ -31,7 +31,7 @@ function travelTime(input) {
         let print = '';
         print += `${country} -> `;
 
-        let sorted = Object.entries(town).sort((kvpA, kvpB) => kvpA[1] - kvpB[1]);
+        let sorted = Object.entries(town).sort((kvpA, kvpB) => kvpA[0] - kvpB[1]);
         for (const [name, cost] of sorted) {
             print += `${name} -> ${cost} `
 
