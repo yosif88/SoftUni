@@ -50,11 +50,11 @@ function arenaTier(input) {
             if (arenaObj.hasOwnProperty(gladiatorOne) && arenaObj.hasOwnProperty(gladiatorTwo)) {
 
                 for (const [name, info] of entry) {
-                    for (const [tech, skill] of Object.entries(info)) {
+                    for (const [currentTechnique, skill] of Object.entries(info)) {
                         
-                        if (playerOne.hasOwnProperty(tech) && playerTwo.hasOwnProperty(tech)) {
+                        if (playerOne.hasOwnProperty(currentTechnique) && playerTwo.hasOwnProperty(currentTechnique)) {
                            
-                            if (playerOne[tech] > playerTwo[tech]) {
+                            if (playerOne[currentTechnique] > playerTwo[currentTechnique]) {
                                
                                 delete arenaObj[gladiatorTwo];
                                 delete totalSkill[gladiatorTwo];
