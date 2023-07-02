@@ -13,10 +13,10 @@ function arenaTier(input) {
         let token;
         
         if (command.includes(' -> ')) {
+            
             token = command.split(' -> ');
             gladiatorOne = token[0];
             technique = token[1];
-
             skill = Number(token[2]);
 
             if (!arenaObj.hasOwnProperty(gladiatorOne)) {
