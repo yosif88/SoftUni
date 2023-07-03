@@ -49,8 +49,8 @@ function arenaTier(input) {
 
             if (arenaObj.hasOwnProperty(gladiatorOne) && arenaObj.hasOwnProperty(gladiatorTwo)) {
 
-                for (const [name, info] of entry) {
-                    for (const [currentTechnique, skill] of Object.entries(info)) {
+                for (const [name, techniques] of entry) {
+                    for (const [currentTechnique, currentSkillkill] of Object.entries(techniques)) {
                         
                         if (playerOne.hasOwnProperty(currentTechnique) && playerTwo.hasOwnProperty(currentTechnique)) {
                            
