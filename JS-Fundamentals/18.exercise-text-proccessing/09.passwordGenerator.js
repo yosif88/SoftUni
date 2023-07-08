@@ -10,20 +10,21 @@ function passwordGenerator(input) {
     let index = 0;
 
 
-    for (let i = 0; i < concatStr.length; i++) {
-        if (vowels.includes(concatStr[i])) {
-            let letter;
+    for (let char of concatStr) {
+        if (vowels.includes(char)) {
+        
             if (index === word.length) {
                 index = 0;
             }
 
             letter = word[index];
-            concatStr = concatStr.replace(concatStr[i], letter.toUpperCase());
+            concatStr = concatStr.replace(char, letter.toUpperCase());
 
             index++;
 
         }
     }
+
 
     for (let i = concatStr.length - 1; i >= 0; i--) {
         password += concatStr[i];
