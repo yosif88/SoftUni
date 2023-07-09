@@ -121,9 +121,7 @@ function lettersChangeNumbers(input) {
         let firstChar = word[0];
         let number = Number(word.substring(1, word.length - 1));
         let lastChar = word[word.length - 1];
-
         let position = 0;
-        //let lastPosition = 0;
 
         if (firstChar.charCodeAt(0) >= 65 && firstChar.charCodeAt(0) <= 90) {
 
