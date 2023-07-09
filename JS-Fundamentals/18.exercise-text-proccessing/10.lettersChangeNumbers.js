@@ -122,30 +122,30 @@ function lettersChangeNumbers(input) {
         let number = Number(word.substring(1, word.length - 1));
         let lastChar = word[word.length - 1];
 
-        let firstPosition = 0;
-        let lastPosition = 0;
+        let position = 0;
+        //let lastPosition = 0;
 
         if (firstChar.charCodeAt(0) >= 65 && firstChar.charCodeAt(0) <= 90) {
 
-            firstPosition = alphabet[firstChar.toLowerCase()]
-            number /= firstPosition;
+            position = alphabet[firstChar.toLowerCase()]
+            number /= position;
 
         } else {
 
-            firstPosition = alphabet[firstChar.toLowerCase()]
-            number *= firstPosition;
+            position = alphabet[firstChar.toLowerCase()]
+            number *= position;
 
         }
 
         if (lastChar.charCodeAt(0) >= 97 && lastChar.charCodeAt(0) <= 122) {
 
-            lastPosition = alphabet[lastChar.toLowerCase()]
-            number += lastPosition;
+            position = alphabet[lastChar.toLowerCase()]
+            number += position;
 
         } else {
 
-            lastPosition = alphabet[lastChar.toLowerCase()]
-            number -= lastPosition;
+            position = alphabet[lastChar.toLowerCase()]
+            number -= position;
         }
 
         totalSum += number;
