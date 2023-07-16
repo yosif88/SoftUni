@@ -1,9 +1,9 @@
 function extractEmails(input){
     let pattern = /(?<=\s)([a-zA-Z0-9]+[\.\-\_]?[a-zA-Z0-9]+)@([a-zA-Z]+[\-]?[a-zA-Z]+)(\.\w+\.?\w+)/g
-    let matches = input.match(pattern);
+    let emails = input.match(pattern);
 
-    for (const line of matches) {
-        console.log(line);
+    for (const email of emails) {
+        console.log(email);
     }
 
 }
