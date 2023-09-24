@@ -1,11 +1,11 @@
 function search() {
    let towns = Array.from(document.querySelectorAll('#towns li'));
-   let searchTextElement = document.querySelector('#searchText').value;
+   let searchTextElement = document.querySelector('#searchText');
    let result = document.getElementById('result');
    let count = 0;
 
      towns.forEach(town => {
-         if(town.textContent.includes(searchTextElement) && searchTextElement !== ''){
+         if(town.textContent.includes(searchTextElement.value) && searchTextElement.value !== ''){
             town.style.fontWeight = 'bold';
             town.style.textDecoration = 'underline';
             count++;
@@ -17,6 +17,8 @@ function search() {
 
      })
    
+     searchTextElement.value = '';
    result.textContent = `${count} matches found`
-   searchTextElement.value = '';
+  
+  
 }
