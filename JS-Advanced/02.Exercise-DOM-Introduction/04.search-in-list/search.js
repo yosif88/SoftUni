@@ -16,5 +16,7 @@ function search() {
          }
 
      })
+   
    result.textContent = `${count} matches found`
+   searchTextElement.value = '';
 }
