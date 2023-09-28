@@ -1,12 +1,12 @@
 function solve() {
-   let addButton = document.querySelectorAll('.add-product');
+   let addButtons = document.querySelectorAll('.add-product');
    let textArea = document.querySelector('textArea');
    let checkout = document.querySelector('.checkout');
    
    let products=[];
    let totalSum = 0;
 
-   Array.from(addButton).forEach(btn => {
+   Array.from(addButtons).forEach(btn => {
       btn.addEventListener('click', addProduct)
    });
 
@@ -33,7 +33,7 @@ function solve() {
 
    function checkoutHandler(e){
       textArea.textContent += `You bought ${products.join(', ')} for ${totalSum.toFixed(2)}.`
-      Array.from(addButton).forEach(btn => btn.disabled = true);
+      Array.from(addButtons).forEach(btn => btn.disabled = true);
       checkout.disabled = true;
       
    }
