@@ -1,5 +1,5 @@
 unit-testing
-install mocha and chai
+install mocha and chai \n
 npm inti -y
 npm install 
 npm install mocha
