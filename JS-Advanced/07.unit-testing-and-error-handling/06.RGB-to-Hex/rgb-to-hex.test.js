@@ -51,10 +51,10 @@ describe('rgbToHexColor', () => {
        
       
     })
-    it('should return # and zero final result',()=>{
+    it('should return  final result edge case',()=>{
             expect(rgbToHexColor(255, 158, 170)).equal('#FF9EAA')
     })
-    it('should return currect value', () => {
+    it('should return final result edge case', () => {
         expect(rgbToHexColor(0, 0, 0)).to.equal('#000000');
     })
    
