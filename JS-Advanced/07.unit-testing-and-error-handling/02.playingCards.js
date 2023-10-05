@@ -23,8 +23,7 @@ function playingCards(face, suit) {
 
 }
 
-console.log((playingCards('A', 'S').toString()))
-console.log(playingCards('10', 'H').toString())
-playingCards('1', 'C')
+// console.log((playingCards('A', 'S').toString()))
+// console.log(playingCards('10', 'H').toString())
+// playingCards('1', 'C')
 
-module.exports = playingCards;
