@@ -1,6 +1,5 @@
-unit-testing
-install mocha and chai \n
-npm inti -y
-npm install 
-npm install mocha
-npm install chai
+unit-testing install mocha and chai \
+npm inti -y\
+npm install \
+npm install mocha\
+npm install chai\
