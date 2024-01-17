@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+}
+
+section{
+    margin-left: 20px;
+}
+
+section h1{
+    font-size: 28px;
+}
+section p:nth-child(odd){
+    font-size: 24px;
+}
