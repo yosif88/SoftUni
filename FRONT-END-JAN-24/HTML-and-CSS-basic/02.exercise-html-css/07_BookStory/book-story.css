@@ -1,0 +1,26 @@
+html{
+    font:16px/1.5;
+}
+body {
+    font: inherit;
+}
+
+main {
+    width: 400px;
+    background-color:#dddddd;
+    margin-left: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+}
+h1{
+    text-align:center;
+}
+p{
+    font-size: 18px;
+}
+q::before{
+    content: open-quote;
+}
+q::after{
+    content: close-quote;
+}
