@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+}
+
+nav ul {
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff
+}
+section{
+    margin-left: 20px;
+}
+
+section h1{
+    font-size: 28px;
+}
+section p:nth-child(odd){
+    font-size: 24px;
+}
+
+footer{
+    background-color: #444;
+
+}
+footer p{ 
+    color:#fff;
+    text-align: center;
+    padding: 10px;
+}
