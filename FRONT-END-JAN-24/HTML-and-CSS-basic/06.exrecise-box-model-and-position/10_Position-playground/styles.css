@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card{
+    max-width: 300px;
+    overflow: hidden;
+    border-radius: 0.4em;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 1em 0.5em rgb(0, 0, 0, 0.2);
+    
+}
+.card::before{
+    display: block;
+    content: '';
+    position: absolute;
+    inset: 0;
+    box-shadow: 0 0 3.5em 0.7em rgb(0, 0, 0, 0.7) inset;
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+}
+
+.card:hover::before{
+    opacity: 0;
+}
+
+.card svg{
+    display: block;
+    width: 1.5em;
+    position: absolute;
+    bottom: 0.6em;
+    right: 0.6em;
+    fill:#fff;
+}
+
+.viewport{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.viewport:nth-child(1){
+    background-image: linear-gradient(to right, #185a9d 0%, #319d9f 100%);
+}
+
+.viewport:nth-child(2){
+    background-image: linear-gradient(to right, #a83278 0%, #c56833 100%);
+}
+
+
