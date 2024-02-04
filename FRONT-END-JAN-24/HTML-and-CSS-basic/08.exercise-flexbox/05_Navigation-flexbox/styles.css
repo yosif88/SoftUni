@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font: 16px/1.5  Helvetica, sans-serif;
+}
+body {
+    padding: 5em;
+    margin: 0 auto;
+}
+header p a{
+    font-size: 2.5em;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(0,0,0);
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+  
+    
+    
+}
+
+header ul{
+    display: flex;
+    margin-right: 1.5em;
+    
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    padding-left: 3em;
+    color:rgb(0, 153, 0);
+}
+main h1{
+    margin-bottom: 0.5em;
+}
+main p{
+    line-height: 1.5;
+    padding-bottom: 1.5em;
+}
