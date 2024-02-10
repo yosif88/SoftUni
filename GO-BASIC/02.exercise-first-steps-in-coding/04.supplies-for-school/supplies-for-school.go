@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	var pensPackagePrice float32 = 5.80
-	var markersPackagePrice float32 = 7.20
-	var detergentPricePerLiter float32 = 1.20
+	const pensPackagePrice float32 = 5.80
+	const markersPackagePrice float32 = 7.20
+	const detergentPricePerLiter float32 = 1.20
 
 	var pensPackageNumber int
 	var markersPackageNumber int
