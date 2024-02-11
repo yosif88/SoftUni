@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding: 2em;
+    flex-direction:row-reverse;
     gap: 1em;
 }
 
@@ -32,7 +33,6 @@ main {
     flex: 1 1 70%;
 
 }
-
 
 aside ul li {
     list-style: none;
