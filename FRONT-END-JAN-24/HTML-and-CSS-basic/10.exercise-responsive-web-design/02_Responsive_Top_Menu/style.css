@@ -74,6 +74,6 @@ aside {
     }
     nav ul,
     header{
-        display: block !important;
+        display: block;
     }
 }
