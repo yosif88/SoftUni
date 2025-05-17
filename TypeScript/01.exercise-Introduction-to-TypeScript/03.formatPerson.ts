@@ -3,4 +3,5 @@ function formatPerson(personInfo:[string, number]): string{
 }
 
 console.log(formatPerson(['Ivan', 20]));
+console.log(formatPerson(['George', 30]));
 
