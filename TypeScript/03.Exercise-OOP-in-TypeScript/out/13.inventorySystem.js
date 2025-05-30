@@ -53,6 +53,4 @@ const product2 = new Product("Phone", 800);
 inventory.addProduct(product1);
 inventory.addProduct(product2);
 console.log(inventory.listProducts());
-Product.productCount = 10;
-const product = new Product("", 800);
 //# sourceMappingURL=13.inventorySystem.js.map
