@@ -14,4 +14,4 @@ class Counter{
 Counter.increment();
 Counter.increment();
 console.log(Counter.getCount());
-Counter.count = 10;
+// Counter.count = 10;
