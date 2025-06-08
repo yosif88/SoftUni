@@ -13,4 +13,9 @@ let maybeCar4 = { engine: { horsepower: 220, type: 'electric' }, tires: { model:
 let maybeCar5 = { engine: { horsepower: '220', type: 'electric' }, tires: { model: 'BRIT', airPressure: 28 }, body: { material: 'steel', weight: 2670 } };
 mechanic.technicalInspection(someCar); //ok
 mechanic.technicalInspection(maybeCar2); //ok
+// mechanic.technicalInspection(maybeCar4);    //TS Error
+// mechanic.technicalInspection(notACar);      //TS Error
+// mechanic.technicalInspection(maybeCar);     //TS Error
+// mechanic.technicalInspection(maybeCar3);    //TS Error
+// mechanic.technicalInspection(maybeCar5);    //TS Error
 //# sourceMappingURL=03.mechanic.js.map
