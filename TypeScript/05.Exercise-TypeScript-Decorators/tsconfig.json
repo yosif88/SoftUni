@@ -6,6 +6,7 @@
     "strict": true, // strict type-checking options
     "outDir": "out", // redirect output to the directory.
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "emitDecoratorMetadata": true,
+    
   }
 }
