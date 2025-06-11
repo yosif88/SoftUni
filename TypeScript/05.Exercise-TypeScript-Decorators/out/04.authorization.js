@@ -20,7 +20,7 @@ class MockAuthorizationService {
         }
     }
 }
-let mockAuthorizationService = new MockAuthorizationService('Guest');
+let mockAuthorizationService = new MockAuthorizationService('Admin');
 function authorizeUser(authService) {
     return function (target, propName, descriptor) {
         const originalGetter = descriptor.get;
