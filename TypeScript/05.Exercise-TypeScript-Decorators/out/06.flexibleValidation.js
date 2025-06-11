@@ -59,26 +59,26 @@ class User {
     get age() { return this._age; }
 }
 __decorate([
-    validateName(3),
+    validateName(1),
     __metadata("design:type", String),
     __metadata("design:paramtypes", [String])
 ], User.prototype, "name", null);
 __decorate([
-    validateAge(1, 100),
+    validateAge(1, 150),
     __metadata("design:type", Number),
     __metadata("design:paramtypes", [Number])
 ], User.prototype, "age", null);
 __decorate([
-    validatePassword(/^[a-zA-Z0-9]+$/g),
+    validatePassword(/^[a-zA-Z0-9!@]+$/g),
     __metadata("design:type", String),
     __metadata("design:paramtypes", [String])
 ], User.prototype, "password", null);
-// minLength = 3
-// min = 1, max = 100
-// regex = /^[a-zA-Z0-9]+$/g
-// let user = new User('John', 130, 'hardPassword12');
-// let user2 = new User('John', 30, '!test');
-// let user3 = new User('John', 25, '@werty');
+// minLength = 1
+// min = 1, max = 150
+// regex = /^[a-zA-Z0-9!@]+$/g
+let user = new User('John', 130, 'hardPassword12');
+let user2 = new User('John', 30, '!test');
+let user3 = new User('John', 25, '@werty');
 let user4 = new User('Jo', 20, 'password123');
 export {};
 //# sourceMappingURL=06.flexibleValidation.js.map
