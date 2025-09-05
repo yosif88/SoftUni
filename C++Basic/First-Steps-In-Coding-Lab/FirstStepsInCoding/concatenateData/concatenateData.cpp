@@ -12,5 +12,5 @@ int main() {
 
 	cin >> town;
 
-	cout << "You are " << name << " " << lastName << " a " << age << "- years old person from " << town << ".";
+	cout << "You are " << name << " " << lastName << ", a " << age << "-years old person from " << town << ".";
 }
