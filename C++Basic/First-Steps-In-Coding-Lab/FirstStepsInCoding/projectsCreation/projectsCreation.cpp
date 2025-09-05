@@ -12,6 +12,7 @@ int main() {
 
 	int hours = numberOfProjects * 3;
 
-	cout << "The architect " << name << " will need" << hours << " hours to complete " << numberOfProjects << " project / s.";
+	cout << "The architect " << name << " will need " << hours << " hours to complete " << numberOfProjects << " project/s.";
 
+	return 0;
 }
