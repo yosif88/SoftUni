@@ -13,8 +13,8 @@ int main() {
 
 	double finalCost = cost - discount;
 	
-	cout << "The final price is: " << finalCost << "lv." << endl;
-	cout << "The discount is: " << discount << "lv.";
+	cout << "The final price is: " << finalCost << " lv." << endl;
+	cout << "The discount is: " << discount << " lv.";
 	
 	return 0;
 
