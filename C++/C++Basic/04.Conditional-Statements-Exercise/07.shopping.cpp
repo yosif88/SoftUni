@@ -25,9 +25,9 @@ int main()
 
     if (budget >= totalPrice)
     {
-        double leftMoney = budget - totalPrice;
+        double moneyLeft = budget - totalPrice;
 
-        cout << "You have " << leftMoney << " leva left!" << endl;
+        cout << "You have " << moneyLeft << " leva left!" << endl;
     }
     else
     {
