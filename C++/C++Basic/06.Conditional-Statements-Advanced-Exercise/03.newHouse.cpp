@@ -61,8 +61,8 @@ int main()
 
     if (budget >= totalPrice){
         
-        double leftMoney = budget - totalPrice;
-        cout << "Hey, you have a great garden with " << countFlowers << " "<< typeFlowers << " and " << leftMoney <<" leva left." << endl;
+        double moneyLeft = budget - totalPrice;
+        cout << "Hey, you have a great garden with " << countFlowers << " "<< typeFlowers << " and " << moneyLeft <<" leva left." << endl;
     }
     else
     {
