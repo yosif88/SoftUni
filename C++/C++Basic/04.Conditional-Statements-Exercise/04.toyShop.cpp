@@ -22,13 +22,13 @@ int main(){
 
     sumOfToys *= 0.90;
     
-    double leftMoney = sumOfToys - priceExcursion;
+    double moneyLeft = sumOfToys - priceExcursion;
     
     cout.setf(ios::fixed);
     cout.precision(2);
 
     if (sumOfToys >= priceExcursion){
-        cout << "Yes! " << leftMoney << " lv left." << endl;
+        cout << "Yes! " << moneyLeft << " lv left." << endl;
     }
     else{
         double neededMoney = priceExcursion - sumOfToys;

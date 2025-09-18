@@ -27,10 +27,10 @@ int main()
 
     if (totalCost <= budget)
     {
-         double leftMoney = abs(budget - totalCost);
+         double moneyLeft = abs(budget - totalCost);
 
         cout << "Action!" << endl;
-        cout << "Wingard starts filming with " << leftMoney << " leva left." << endl;
+        cout << "Wingard starts filming with " << moneyLeft << " leva left." << endl;
     }
     else
     {
