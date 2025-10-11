@@ -19,9 +19,8 @@ int main()
         for (int i = 0; i < currentNum.length(); i++)
         {
             int digit = currentNum[i] - '0';
-            int position = i + 1;
 
-            if (position % 2 == 0)
+            if (i % 2 == 0)
             {
                 sumEven += digit;
             }
@@ -39,7 +38,7 @@ int main()
         
     }
     cout << result;
-    
+
     return 0;
     
 }
