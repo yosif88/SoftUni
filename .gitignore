@@ -406,3 +406,9 @@ cmake-build-release/
 
 !*.cpp
 !*.h
+
+# Pycharm IDE
+.idea/
+.venv/
+.env/
+venv/
