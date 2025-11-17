@@ -53,8 +53,8 @@ void compareString()
 int main()
 {
     string type;
-    cin >> type;
-    cin.ignore();
+    getline(cin, type);
+    //cin.ignore();
 
     if (type == "int")
     {
