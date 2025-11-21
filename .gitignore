@@ -406,6 +406,9 @@ cmake-build-release/
 
 !*.cpp
 !*.h
+*.tasks.json
+*.exe
+.vscode/
 
 # Pycharm IDE
 .idea/
